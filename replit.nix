@@ -1,3 +1,5 @@
 {pkgs}: {
-  deps = [ ];
+  deps = [
+    pkgs.chatgpt-retrieval-plugin
+   ];
 }
